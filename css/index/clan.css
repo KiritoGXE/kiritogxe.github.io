@@ -1,0 +1,148 @@
+#clan {
+  padding: 50px 0;
+}
+.clan-service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.service {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.service img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer1 {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #a6ff0098);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 22.3px;
+  transition: height 0.5s;
+}
+.layer1 h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer1 a {
+  margin-top: 20px;
+  color: #a6ff0098;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.service:hover img {
+  transform: scale(1.1);
+}
+.service:hover .layer1 {
+  height: 100%;
+}
+.layer2 {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #0b7765c4);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 22.3px;
+  transition: height 0.5s;
+}
+.layer2 h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer2 a {
+  margin-top: 20px;
+  color: #0b7765c4;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.service:hover .layer2 {
+  height: 100%;
+}
+.layer3 {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ffe121e5);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 22.3px;
+  transition: height 0.5s;
+}
+.layer3 h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer3 a {
+  margin-top: 20px;
+  color: #ffe121e5;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.service:hover .layer3 {
+  height: 100%;
+}
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: #ff004f;
+}
